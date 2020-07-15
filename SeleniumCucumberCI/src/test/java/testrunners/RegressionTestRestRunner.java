@@ -12,7 +12,7 @@ import cucumber.api.junit.Cucumber;
 		features = "classpath:features", 
 		glue = { "steps"}, 
 	    plugin = { "html:target/cucumber-pretty-report/regression-tests", "json:target/cucumber-report/cucumber.json" }, 
-        tags = { "@SmokeTestRest" }
+        tags = { "@SmokeTest" }
 )
 
 public class RegressionTestRestRunner {
