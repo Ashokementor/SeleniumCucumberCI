@@ -43,7 +43,7 @@ public class BADefaultLanguageSteps {
 		try {
 
 			// Expected
-			// String expected = "United States - English";
+			expected = "United States - English";
 			
 			// Get the text
 			String actual = driver.findElement(By.xpath("//*[contains(@class,'country-language-text')]")).getText()
